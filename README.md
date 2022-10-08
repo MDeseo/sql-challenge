@@ -17,7 +17,7 @@ The diagram documentation was exported to the folder 'EmployeeSQL' with file nam
 ## DATA ENGINEERING
 
 A database was created in Postgres pgAdmin4 version 6.12.
-A schema for each of the six CSV files provided in the folder 'data' was created ansd the 'schema' was saved in the folder 'EmployeeSQL.'
+A schema for each of the six CSV files provided in the folder 'data' was created and the 'schema' was saved in the folder 'EmployeeSQL.'
 Primary key was assigned to unique column(s) and foreign key(s) were also specified.
 
 The tables were created in the following csv file order:
@@ -28,9 +28,9 @@ The tables were created in the following csv file order:
 5. dept-emp
 6. salaries
 
-To avoid imprort problems with dates caused by US style dates in the csv files, pgAdmin database parameter property was updated.
+To avoid import problems with dates caused by US style dates in the csv files, pgAdmin database parameter property was updated.
 In the Name category, 'Datestyle' was chosen, Value input was made 'MDY' and 'postgres' was chosen in Role. 
-The updates were updated and saved before importing the csv files. 
+The  database parameters were updated and saved before importing the csv files. 
   
 ## DATA ANALYSIS
 
