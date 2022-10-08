@@ -12,7 +12,7 @@ For this assignment, tables were designed to hold data in the csv files, importe
 An Entity Relationship Diagram (ERD) using a physical model design was created to show the relationship between the tables in the csv files.
 The model includes the entities, data types and their relationships using primary keys and foreign keys.
 The sketch was created using QuickDBD (https://www.quickdatabasediagrams.com/).
-The ERD code was exported to the folder 'EmployeeSQL' with file name 'Employee_Modelling.pdf' and the image as 'Employee_ERD.PNG' file.
+The diagram documentation was exported to the folder 'EmployeeSQL' with file name 'Employee_Modelling.pdf' and the image as 'Employee_ERD.PNG' file.
 
 ## DATA ENGINEERING
 
